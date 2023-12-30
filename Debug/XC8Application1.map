@@ -1,0 +1,1055 @@
+Archive member included to satisfy reference by file (symbol)
+
+c:/program files/microchip/xc8/v2.36/avr/bin/../lib/gcc/avr/5.4.0/avr5/memx-const\libgcc.a(_divmodsi4.o)
+                              SourceFiles/Source_HAL/LCD.o (__divmodsi4)
+c:/program files/microchip/xc8/v2.36/avr/bin/../lib/gcc/avr/5.4.0/avr5/memx-const\libgcc.a(_negsi2.o)
+                              c:/program files/microchip/xc8/v2.36/avr/bin/../lib/gcc/avr/5.4.0/avr5/memx-const\libgcc.a(_divmodsi4.o) (__negsi2)
+c:/program files/microchip/xc8/v2.36/avr/bin/../lib/gcc/avr/5.4.0/avr5/memx-const\libgcc.a(_copy_data.o)
+                              SourceFiles/Source_MCAL/EXT_INTERRUPT.o (__do_clear_bss)
+c:/program files/microchip/xc8/v2.36/avr/bin/../lib/gcc/avr/5.4.0/avr5/memx-const\libgcc.a(_umulhisi3.o)
+                              SourceFiles/Source_HAL/LCD.o (__umulhisi3)
+c:/program files/microchip/xc8/v2.36/avr/bin/../lib/gcc/avr/5.4.0/avr5/memx-const\libgcc.a(_udivmodsi4.o)
+                              c:/program files/microchip/xc8/v2.36/avr/bin/../lib/gcc/avr/5.4.0/avr5/memx-const\libgcc.a(_divmodsi4.o) (__udivmodsi4)
+c:/program files/microchip/xc8/v2.36/avr/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5/memx-const\libc.a(exit.o)
+                              C:/Program Files (x86)/Atmel/Studio/7.0/Packs/atmel/ATmega_DFP/1.7.374/xc8/avr/lib/avr5/memx-const/crtatmega32.o (exit)
+c:/program files/microchip/xc8/v2.36/avr/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5/memx-const\libc.a(_Exit.o)
+                              c:/program files/microchip/xc8/v2.36/avr/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5/memx-const\libc.a(exit.o) (_Exit)
+c:/program files/microchip/xc8/v2.36/avr/bin/../lib/gcc/avr/5.4.0/avr5/memx-const\libgcc.a(_exit.o)
+                              c:/program files/microchip/xc8/v2.36/avr/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5/memx-const\libc.a(_Exit.o) (_exit)
+
+Discarded input sections
+
+ .data          0x0000000000000000        0x0 C:/Program Files (x86)/Atmel/Studio/7.0/Packs/atmel/ATmega_DFP/1.7.374/xc8/avr/lib/avr5/memx-const/crtatmega32.o
+ .bss           0x0000000000000000        0x0 C:/Program Files (x86)/Atmel/Studio/7.0/Packs/atmel/ATmega_DFP/1.7.374/xc8/avr/lib/avr5/memx-const/crtatmega32.o
+ .text          0x0000000000000000        0x0 main.o
+ .data          0x0000000000000000        0x0 main.o
+ .bss           0x0000000000000000        0x0 main.o
+ .text          0x0000000000000000        0x0 Services/SPI_Services.o
+ .data          0x0000000000000000        0x0 Services/SPI_Services.o
+ .bss           0x0000000000000000        0x0 Services/SPI_Services.o
+ .text.SPI_MasterTransmitMulti
+                0x0000000000000000       0x5e Services/SPI_Services.o
+ .text.SPI_SlaveReceiveMulti
+                0x0000000000000000       0x3e Services/SPI_Services.o
+ .debug_info    0x0000000000000000      0x3dc Services/SPI_Services.o
+ .debug_abbrev  0x0000000000000000       0xcb Services/SPI_Services.o
+ .debug_loc     0x0000000000000000      0x152 Services/SPI_Services.o
+ .debug_aranges
+                0x0000000000000000       0x28 Services/SPI_Services.o
+ .debug_ranges  0x0000000000000000       0x48 Services/SPI_Services.o
+ .debug_line    0x0000000000000000       0xfd Services/SPI_Services.o
+ .debug_str     0x0000000000000000        0x0 Services/SPI_Services.o
+ .comment       0x0000000000000000       0x30 Services/SPI_Services.o
+ .debug_frame   0x0000000000000000       0x60 Services/SPI_Services.o
+ .text          0x0000000000000000        0x0 Services/usart_services.o
+ .data          0x0000000000000000        0x0 Services/usart_services.o
+ .bss           0x0000000000000000        0x0 Services/usart_services.o
+ .text.USART_SendString
+                0x0000000000000000       0x22 Services/usart_services.o
+ .text.USART_ReceiveString
+                0x0000000000000000       0x70 Services/usart_services.o
+ .text.USART_SendNumber
+                0x0000000000000000       0x4c Services/usart_services.o
+ .text.USART_ReceiveNumber
+                0x0000000000000000       0x9a Services/usart_services.o
+ .text.USART_CalculateCRC
+                0x0000000000000000       0x62 Services/usart_services.o
+ .text.USART_SendDataWithCRC
+                0x0000000000000000       0x80 Services/usart_services.o
+ .text.USART_ReceiveDataWithCRC
+                0x0000000000000000       0x96 Services/usart_services.o
+ .debug_info    0x0000000000000000      0x821 Services/usart_services.o
+ .debug_abbrev  0x0000000000000000      0x14b Services/usart_services.o
+ .debug_loc     0x0000000000000000      0x739 Services/usart_services.o
+ .debug_aranges
+                0x0000000000000000       0x50 Services/usart_services.o
+ .debug_ranges  0x0000000000000000       0xe8 Services/usart_services.o
+ .debug_line    0x0000000000000000      0x33e Services/usart_services.o
+ .debug_str     0x0000000000000000       0x52 Services/usart_services.o
+ .comment       0x0000000000000000       0x30 Services/usart_services.o
+ .debug_frame   0x0000000000000000      0x164 Services/usart_services.o
+ .text          0x0000000000000000        0x0 SourceFiles/Source_HAL/LCD.o
+ .data          0x0000000000000000        0x0 SourceFiles/Source_HAL/LCD.o
+ .bss           0x0000000000000000        0x0 SourceFiles/Source_HAL/LCD.o
+ .text.LCD_WriteString
+                0x0000000000000000       0x26 SourceFiles/Source_HAL/LCD.o
+ .text.LCD_WriteNumber
+                0x0000000000000000       0xc6 SourceFiles/Source_HAL/LCD.o
+ .text.LCD_WriteBinary
+                0x0000000000000000       0x44 SourceFiles/Source_HAL/LCD.o
+ .text.LCD_WriteHex
+                0x0000000000000000       0x3c SourceFiles/Source_HAL/LCD.o
+ .text.LCD_WriteNumber_4D
+                0x0000000000000000      0x142 SourceFiles/Source_HAL/LCD.o
+ .text.LCD_GoTo
+                0x0000000000000000       0x1c SourceFiles/Source_HAL/LCD.o
+ .text.LCD_Clear
+                0x0000000000000000        0x8 SourceFiles/Source_HAL/LCD.o
+ .text.LCD_GoToClear
+                0x0000000000000000       0x20 SourceFiles/Source_HAL/LCD.o
+ .text.LCD_GoToWriteString
+                0x0000000000000000       0x16 SourceFiles/Source_HAL/LCD.o
+ .text.LCD_Create_Character
+                0x0000000000000000       0x3c SourceFiles/Source_HAL/LCD.o
+ .text          0x0000000000000000        0x0 SourceFiles/Source_MCAL/DIO.o
+ .data          0x0000000000000000        0x0 SourceFiles/Source_MCAL/DIO.o
+ .bss           0x0000000000000000        0x0 SourceFiles/Source_MCAL/DIO.o
+ .text.DIO_Write_Port
+                0x0000000000000000       0x32 SourceFiles/Source_MCAL/DIO.o
+ .text.DIO_toggle_pin
+                0x0000000000000000       0x98 SourceFiles/Source_MCAL/DIO.o
+ .text.DIO_read_pin
+                0x0000000000000000       0xa4 SourceFiles/Source_MCAL/DIO.o
+ .text.DIO_read_port
+                0x0000000000000000       0x4e SourceFiles/Source_MCAL/DIO.o
+ .text          0x0000000000000000        0x0 SourceFiles/Source_MCAL/DIO_CONFIG.o
+ .data          0x0000000000000000        0x0 SourceFiles/Source_MCAL/DIO_CONFIG.o
+ .bss           0x0000000000000000        0x0 SourceFiles/Source_MCAL/DIO_CONFIG.o
+ .text          0x0000000000000000        0x0 SourceFiles/Source_MCAL/EEPROM.o
+ .data          0x0000000000000000        0x0 SourceFiles/Source_MCAL/EEPROM.o
+ .bss           0x0000000000000000        0x0 SourceFiles/Source_MCAL/EEPROM.o
+ .text.EEPROM_WRITE
+                0x0000000000000000       0x36 SourceFiles/Source_MCAL/EEPROM.o
+ .text.EEPROM_READ
+                0x0000000000000000       0x32 SourceFiles/Source_MCAL/EEPROM.o
+ .debug_info    0x0000000000000000      0x378 SourceFiles/Source_MCAL/EEPROM.o
+ .debug_abbrev  0x0000000000000000       0x89 SourceFiles/Source_MCAL/EEPROM.o
+ .debug_loc     0x0000000000000000       0x88 SourceFiles/Source_MCAL/EEPROM.o
+ .debug_aranges
+                0x0000000000000000       0x28 SourceFiles/Source_MCAL/EEPROM.o
+ .debug_ranges  0x0000000000000000       0x18 SourceFiles/Source_MCAL/EEPROM.o
+ .debug_line    0x0000000000000000       0xf4 SourceFiles/Source_MCAL/EEPROM.o
+ .debug_str     0x0000000000000000        0x0 SourceFiles/Source_MCAL/EEPROM.o
+ .comment       0x0000000000000000       0x30 SourceFiles/Source_MCAL/EEPROM.o
+ .debug_frame   0x0000000000000000       0x34 SourceFiles/Source_MCAL/EEPROM.o
+ .text          0x0000000000000000        0x0 SourceFiles/Source_MCAL/EXT_INTERRUPT.o
+ .data          0x0000000000000000        0x0 SourceFiles/Source_MCAL/EXT_INTERRUPT.o
+ .bss           0x0000000000000000        0x0 SourceFiles/Source_MCAL/EXT_INTERRUPT.o
+ .text.EXT_enable_interrupt
+                0x0000000000000000       0x2e SourceFiles/Source_MCAL/EXT_INTERRUPT.o
+ .text.EXT_disable_interrupt
+                0x0000000000000000       0x2e SourceFiles/Source_MCAL/EXT_INTERRUPT.o
+ .text.EXT_interrupt_logic_set
+                0x0000000000000000       0xdc SourceFiles/Source_MCAL/EXT_INTERRUPT.o
+ .text.EXT_interrupt_set_callback
+                0x0000000000000000       0x3e SourceFiles/Source_MCAL/EXT_INTERRUPT.o
+ .text          0x0000000000000000        0x0 SourceFiles/Source_MCAL/SPI.o
+ .data          0x0000000000000000        0x0 SourceFiles/Source_MCAL/SPI.o
+ .bss           0x0000000000000000        0x0 SourceFiles/Source_MCAL/SPI.o
+ .text.SPI_MasterInit
+                0x0000000000000000       0x62 SourceFiles/Source_MCAL/SPI.o
+ .text.SPI_MasterTransmit
+                0x0000000000000000        0xa SourceFiles/Source_MCAL/SPI.o
+ .text.SPI_SlaveReceive
+                0x0000000000000000       0x16 SourceFiles/Source_MCAL/SPI.o
+ .text.SPI_SendReceive
+                0x0000000000000000        0xa SourceFiles/Source_MCAL/SPI.o
+ .debug_info    0x0000000000000000      0x473 SourceFiles/Source_MCAL/SPI.o
+ .debug_abbrev  0x0000000000000000       0xa3 SourceFiles/Source_MCAL/SPI.o
+ .debug_loc     0x0000000000000000       0xf0 SourceFiles/Source_MCAL/SPI.o
+ .debug_aranges
+                0x0000000000000000       0x38 SourceFiles/Source_MCAL/SPI.o
+ .debug_ranges  0x0000000000000000       0x28 SourceFiles/Source_MCAL/SPI.o
+ .debug_line    0x0000000000000000      0x19b SourceFiles/Source_MCAL/SPI.o
+ .debug_str     0x0000000000000000        0x0 SourceFiles/Source_MCAL/SPI.o
+ .comment       0x0000000000000000       0x30 SourceFiles/Source_MCAL/SPI.o
+ .debug_frame   0x0000000000000000       0x54 SourceFiles/Source_MCAL/SPI.o
+ .text          0x0000000000000000        0x0 SourceFiles/Source_MCAL/Timers.o
+ .data          0x0000000000000000        0x0 SourceFiles/Source_MCAL/Timers.o
+ .bss           0x0000000000000000        0x0 SourceFiles/Source_MCAL/Timers.o
+ .text.TIMER0_Init
+                0x0000000000000000       0x54 SourceFiles/Source_MCAL/Timers.o
+ .text.TIMER0_OC0Mode
+                0x0000000000000000       0x48 SourceFiles/Source_MCAL/Timers.o
+ .text.TIMER0_OV_InterruptEnable
+                0x0000000000000000        0x8 SourceFiles/Source_MCAL/Timers.o
+ .text.TIMER0_OV_InterruptDisable
+                0x0000000000000000        0x8 SourceFiles/Source_MCAL/Timers.o
+ .text.TIMER0_OC_InterruptEnable
+                0x0000000000000000        0x8 SourceFiles/Source_MCAL/Timers.o
+ .text.TIMER0_OC_InterruptDisable
+                0x0000000000000000        0x8 SourceFiles/Source_MCAL/Timers.o
+ .text.TIMER0_OVF_SetCallBack
+                0x0000000000000000        0xa SourceFiles/Source_MCAL/Timers.o
+ .text.Timer0_OC_SetCallBack
+                0x0000000000000000        0xa SourceFiles/Source_MCAL/Timers.o
+ .text.Timer1_Init
+                0x0000000000000000       0xa8 SourceFiles/Source_MCAL/Timers.o
+ .text.Timer1_OCRA1Mode
+                0x0000000000000000       0x48 SourceFiles/Source_MCAL/Timers.o
+ .text.Timer1_OCRB1Mode
+                0x0000000000000000       0x48 SourceFiles/Source_MCAL/Timers.o
+ .text.Timer1_InputCaptureEdge
+                0x0000000000000000       0x18 SourceFiles/Source_MCAL/Timers.o
+ .text.Timer1_ICU_InterruptEnable
+                0x0000000000000000        0x8 SourceFiles/Source_MCAL/Timers.o
+ .text.Timer1_ICU_InterruptDisable
+                0x0000000000000000        0x8 SourceFiles/Source_MCAL/Timers.o
+ .text.Timer1_OVF_InterruptEnable
+                0x0000000000000000        0x8 SourceFiles/Source_MCAL/Timers.o
+ .text.Timer1_OVF_InterruptDisable
+                0x0000000000000000        0x8 SourceFiles/Source_MCAL/Timers.o
+ .text.Timer1_OCA_InterruptEnable
+                0x0000000000000000        0x8 SourceFiles/Source_MCAL/Timers.o
+ .text.Timer1_OCA_InterruptDisable
+                0x0000000000000000        0x8 SourceFiles/Source_MCAL/Timers.o
+ .text.Timer1_OCB_InterruptEnable
+                0x0000000000000000        0x8 SourceFiles/Source_MCAL/Timers.o
+ .text.Timer1_OCB_InterruptDisable
+                0x0000000000000000        0x8 SourceFiles/Source_MCAL/Timers.o
+ .text.Timer1_OVF_SetCallBack
+                0x0000000000000000        0xa SourceFiles/Source_MCAL/Timers.o
+ .text.Timer1_OCA_SetCallBack
+                0x0000000000000000        0xa SourceFiles/Source_MCAL/Timers.o
+ .text.Timer1_OCB_SetCallBack
+                0x0000000000000000        0xa SourceFiles/Source_MCAL/Timers.o
+ .text.TIMER2_Init
+                0x0000000000000000       0x54 SourceFiles/Source_MCAL/Timers.o
+ .text.TIMER2_OC2Mode
+                0x0000000000000000       0x48 SourceFiles/Source_MCAL/Timers.o
+ .text.TIMER2_OV_InterruptEnable
+                0x0000000000000000        0x8 SourceFiles/Source_MCAL/Timers.o
+ .text.TIMER2_OV_InterruptDisable
+                0x0000000000000000        0x8 SourceFiles/Source_MCAL/Timers.o
+ .text.TIMER2_OC_InterruptEnable
+                0x0000000000000000        0x8 SourceFiles/Source_MCAL/Timers.o
+ .text.TIMER2_OC_InterruptDisable
+                0x0000000000000000        0x8 SourceFiles/Source_MCAL/Timers.o
+ .text.Timer2_OVF_SetCallBack
+                0x0000000000000000        0xa SourceFiles/Source_MCAL/Timers.o
+ .text.Timer2_OC_SetCallBack
+                0x0000000000000000        0xa SourceFiles/Source_MCAL/Timers.o
+ .text          0x0000000000000000        0x0 SourceFiles/Source_MCAL/USART.o
+ .data          0x0000000000000000        0x0 SourceFiles/Source_MCAL/USART.o
+ .bss           0x0000000000000000        0x0 SourceFiles/Source_MCAL/USART.o
+ .text.USART_Flush
+                0x0000000000000000        0xc SourceFiles/Source_MCAL/USART.o
+ .text          0x0000000000000000        0x0 SourceFiles/Source_MCAL/Watch_Dog.o
+ .data          0x0000000000000000        0x0 SourceFiles/Source_MCAL/Watch_Dog.o
+ .bss           0x0000000000000000        0x0 SourceFiles/Source_MCAL/Watch_Dog.o
+ .text.WDT_Enable
+                0x0000000000000000       0x10 SourceFiles/Source_MCAL/Watch_Dog.o
+ .text.WDT_Disable
+                0x0000000000000000        0xe SourceFiles/Source_MCAL/Watch_Dog.o
+ .debug_info    0x0000000000000000      0x3f6 SourceFiles/Source_MCAL/Watch_Dog.o
+ .debug_abbrev  0x0000000000000000       0xa3 SourceFiles/Source_MCAL/Watch_Dog.o
+ .debug_loc     0x0000000000000000       0x65 SourceFiles/Source_MCAL/Watch_Dog.o
+ .debug_aranges
+                0x0000000000000000       0x28 SourceFiles/Source_MCAL/Watch_Dog.o
+ .debug_ranges  0x0000000000000000       0x18 SourceFiles/Source_MCAL/Watch_Dog.o
+ .debug_line    0x0000000000000000       0xe9 SourceFiles/Source_MCAL/Watch_Dog.o
+ .debug_str     0x0000000000000000        0x0 SourceFiles/Source_MCAL/Watch_Dog.o
+ .comment       0x0000000000000000       0x30 SourceFiles/Source_MCAL/Watch_Dog.o
+ .debug_frame   0x0000000000000000       0x34 SourceFiles/Source_MCAL/Watch_Dog.o
+ .text          0x0000000000000000        0x0 tests/DIO_Test.o
+ .data          0x0000000000000000        0x0 tests/DIO_Test.o
+ .bss           0x0000000000000000        0x0 tests/DIO_Test.o
+ .debug_line    0x0000000000000000        0x0 tests/DIO_Test.o
+ .debug_str     0x0000000000000000        0x0 tests/DIO_Test.o
+ .comment       0x0000000000000000       0x30 tests/DIO_Test.o
+ .text          0x0000000000000000        0x0 tests/EEPROM_Test.o
+ .data          0x0000000000000000        0x0 tests/EEPROM_Test.o
+ .bss           0x0000000000000000        0x0 tests/EEPROM_Test.o
+ .debug_line    0x0000000000000000        0x0 tests/EEPROM_Test.o
+ .debug_str     0x0000000000000000        0x0 tests/EEPROM_Test.o
+ .comment       0x0000000000000000       0x30 tests/EEPROM_Test.o
+ .text          0x0000000000000000        0x0 tests/EXT_Interrupt_test.o
+ .data          0x0000000000000000        0x0 tests/EXT_Interrupt_test.o
+ .bss           0x0000000000000000        0x0 tests/EXT_Interrupt_test.o
+ .debug_line    0x0000000000000000        0x0 tests/EXT_Interrupt_test.o
+ .debug_str     0x0000000000000000        0x0 tests/EXT_Interrupt_test.o
+ .comment       0x0000000000000000       0x30 tests/EXT_Interrupt_test.o
+ .text          0x0000000000000000        0x0 tests/usart_test.o
+ .data          0x0000000000000000        0x0 tests/usart_test.o
+ .bss           0x0000000000000000        0x0 tests/usart_test.o
+ .debug_line    0x0000000000000000        0x0 tests/usart_test.o
+ .debug_str     0x0000000000000000        0x0 tests/usart_test.o
+ .comment       0x0000000000000000       0x30 tests/usart_test.o
+ .text          0x0000000000000000        0x0 tests/WDT_test.o
+ .data          0x0000000000000000        0x0 tests/WDT_test.o
+ .bss           0x0000000000000000        0x0 tests/WDT_test.o
+ .debug_line    0x0000000000000000        0x0 tests/WDT_test.o
+ .debug_str     0x0000000000000000        0x0 tests/WDT_test.o
+ .comment       0x0000000000000000       0x30 tests/WDT_test.o
+ .text          0x0000000000000000        0x0 c:/program files/microchip/xc8/v2.36/avr/bin/../lib/gcc/avr/5.4.0/avr5/memx-const\libgcc.a(_divmodsi4.o)
+ .data          0x0000000000000000        0x0 c:/program files/microchip/xc8/v2.36/avr/bin/../lib/gcc/avr/5.4.0/avr5/memx-const\libgcc.a(_divmodsi4.o)
+ .bss           0x0000000000000000        0x0 c:/program files/microchip/xc8/v2.36/avr/bin/../lib/gcc/avr/5.4.0/avr5/memx-const\libgcc.a(_divmodsi4.o)
+ .text.libgcc.mul
+                0x0000000000000000        0x0 c:/program files/microchip/xc8/v2.36/avr/bin/../lib/gcc/avr/5.4.0/avr5/memx-const\libgcc.a(_divmodsi4.o)
+ .stack.descriptors
+                0x0000000000000000       0x19 c:/program files/microchip/xc8/v2.36/avr/bin/../lib/gcc/avr/5.4.0/avr5/memx-const\libgcc.a(_divmodsi4.o)
+ .text.libgcc   0x0000000000000000        0x0 c:/program files/microchip/xc8/v2.36/avr/bin/../lib/gcc/avr/5.4.0/avr5/memx-const\libgcc.a(_divmodsi4.o)
+ .text.libgcc.prologue
+                0x0000000000000000        0x0 c:/program files/microchip/xc8/v2.36/avr/bin/../lib/gcc/avr/5.4.0/avr5/memx-const\libgcc.a(_divmodsi4.o)
+ .text.libgcc.builtins
+                0x0000000000000000        0x0 c:/program files/microchip/xc8/v2.36/avr/bin/../lib/gcc/avr/5.4.0/avr5/memx-const\libgcc.a(_divmodsi4.o)
+ .text.libgcc.fmul
+                0x0000000000000000        0x0 c:/program files/microchip/xc8/v2.36/avr/bin/../lib/gcc/avr/5.4.0/avr5/memx-const\libgcc.a(_divmodsi4.o)
+ .text.libgcc.fixed
+                0x0000000000000000        0x0 c:/program files/microchip/xc8/v2.36/avr/bin/../lib/gcc/avr/5.4.0/avr5/memx-const\libgcc.a(_divmodsi4.o)
+ .text          0x0000000000000000        0x0 c:/program files/microchip/xc8/v2.36/avr/bin/../lib/gcc/avr/5.4.0/avr5/memx-const\libgcc.a(_negsi2.o)
+ .data          0x0000000000000000        0x0 c:/program files/microchip/xc8/v2.36/avr/bin/../lib/gcc/avr/5.4.0/avr5/memx-const\libgcc.a(_negsi2.o)
+ .bss           0x0000000000000000        0x0 c:/program files/microchip/xc8/v2.36/avr/bin/../lib/gcc/avr/5.4.0/avr5/memx-const\libgcc.a(_negsi2.o)
+ .text.libgcc.mul
+                0x0000000000000000        0x0 c:/program files/microchip/xc8/v2.36/avr/bin/../lib/gcc/avr/5.4.0/avr5/memx-const\libgcc.a(_negsi2.o)
+ .stack.descriptors
+                0x0000000000000000       0x16 c:/program files/microchip/xc8/v2.36/avr/bin/../lib/gcc/avr/5.4.0/avr5/memx-const\libgcc.a(_negsi2.o)
+ .text.libgcc   0x0000000000000000        0x0 c:/program files/microchip/xc8/v2.36/avr/bin/../lib/gcc/avr/5.4.0/avr5/memx-const\libgcc.a(_negsi2.o)
+ .text.libgcc.prologue
+                0x0000000000000000        0x0 c:/program files/microchip/xc8/v2.36/avr/bin/../lib/gcc/avr/5.4.0/avr5/memx-const\libgcc.a(_negsi2.o)
+ .text.libgcc.builtins
+                0x0000000000000000        0x0 c:/program files/microchip/xc8/v2.36/avr/bin/../lib/gcc/avr/5.4.0/avr5/memx-const\libgcc.a(_negsi2.o)
+ .text.libgcc.fmul
+                0x0000000000000000        0x0 c:/program files/microchip/xc8/v2.36/avr/bin/../lib/gcc/avr/5.4.0/avr5/memx-const\libgcc.a(_negsi2.o)
+ .text.libgcc.fixed
+                0x0000000000000000        0x0 c:/program files/microchip/xc8/v2.36/avr/bin/../lib/gcc/avr/5.4.0/avr5/memx-const\libgcc.a(_negsi2.o)
+ .text          0x0000000000000000        0x0 c:/program files/microchip/xc8/v2.36/avr/bin/../lib/gcc/avr/5.4.0/avr5/memx-const\libgcc.a(_copy_data.o)
+ .data          0x0000000000000000        0x0 c:/program files/microchip/xc8/v2.36/avr/bin/../lib/gcc/avr/5.4.0/avr5/memx-const\libgcc.a(_copy_data.o)
+ .bss           0x0000000000000000        0x0 c:/program files/microchip/xc8/v2.36/avr/bin/../lib/gcc/avr/5.4.0/avr5/memx-const\libgcc.a(_copy_data.o)
+ .text.libgcc.mul
+                0x0000000000000000        0x0 c:/program files/microchip/xc8/v2.36/avr/bin/../lib/gcc/avr/5.4.0/avr5/memx-const\libgcc.a(_copy_data.o)
+ .text.libgcc.div
+                0x0000000000000000        0x0 c:/program files/microchip/xc8/v2.36/avr/bin/../lib/gcc/avr/5.4.0/avr5/memx-const\libgcc.a(_copy_data.o)
+ .text.libgcc   0x0000000000000000        0x0 c:/program files/microchip/xc8/v2.36/avr/bin/../lib/gcc/avr/5.4.0/avr5/memx-const\libgcc.a(_copy_data.o)
+ .text.libgcc.prologue
+                0x0000000000000000        0x0 c:/program files/microchip/xc8/v2.36/avr/bin/../lib/gcc/avr/5.4.0/avr5/memx-const\libgcc.a(_copy_data.o)
+ .text.libgcc.builtins
+                0x0000000000000000        0x0 c:/program files/microchip/xc8/v2.36/avr/bin/../lib/gcc/avr/5.4.0/avr5/memx-const\libgcc.a(_copy_data.o)
+ .text.libgcc.fmul
+                0x0000000000000000        0x0 c:/program files/microchip/xc8/v2.36/avr/bin/../lib/gcc/avr/5.4.0/avr5/memx-const\libgcc.a(_copy_data.o)
+ .text.libgcc.fixed
+                0x0000000000000000        0x0 c:/program files/microchip/xc8/v2.36/avr/bin/../lib/gcc/avr/5.4.0/avr5/memx-const\libgcc.a(_copy_data.o)
+ .text          0x0000000000000000        0x0 c:/program files/microchip/xc8/v2.36/avr/bin/../lib/gcc/avr/5.4.0/avr5/memx-const\libgcc.a(_umulhisi3.o)
+ .data          0x0000000000000000        0x0 c:/program files/microchip/xc8/v2.36/avr/bin/../lib/gcc/avr/5.4.0/avr5/memx-const\libgcc.a(_umulhisi3.o)
+ .bss           0x0000000000000000        0x0 c:/program files/microchip/xc8/v2.36/avr/bin/../lib/gcc/avr/5.4.0/avr5/memx-const\libgcc.a(_umulhisi3.o)
+ .text.libgcc.mul
+                0x0000000000000000       0x1e c:/program files/microchip/xc8/v2.36/avr/bin/../lib/gcc/avr/5.4.0/avr5/memx-const\libgcc.a(_umulhisi3.o)
+ .stack.descriptors.hdr
+                0x0000000000000000        0xe c:/program files/microchip/xc8/v2.36/avr/bin/../lib/gcc/avr/5.4.0/avr5/memx-const\libgcc.a(_umulhisi3.o)
+ .stack.descriptors
+                0x0000000000000000       0x19 c:/program files/microchip/xc8/v2.36/avr/bin/../lib/gcc/avr/5.4.0/avr5/memx-const\libgcc.a(_umulhisi3.o)
+ .text.libgcc.div
+                0x0000000000000000        0x0 c:/program files/microchip/xc8/v2.36/avr/bin/../lib/gcc/avr/5.4.0/avr5/memx-const\libgcc.a(_umulhisi3.o)
+ .text.libgcc   0x0000000000000000        0x0 c:/program files/microchip/xc8/v2.36/avr/bin/../lib/gcc/avr/5.4.0/avr5/memx-const\libgcc.a(_umulhisi3.o)
+ .text.libgcc.prologue
+                0x0000000000000000        0x0 c:/program files/microchip/xc8/v2.36/avr/bin/../lib/gcc/avr/5.4.0/avr5/memx-const\libgcc.a(_umulhisi3.o)
+ .text.libgcc.builtins
+                0x0000000000000000        0x0 c:/program files/microchip/xc8/v2.36/avr/bin/../lib/gcc/avr/5.4.0/avr5/memx-const\libgcc.a(_umulhisi3.o)
+ .text.libgcc.fmul
+                0x0000000000000000        0x0 c:/program files/microchip/xc8/v2.36/avr/bin/../lib/gcc/avr/5.4.0/avr5/memx-const\libgcc.a(_umulhisi3.o)
+ .text.libgcc.fixed
+                0x0000000000000000        0x0 c:/program files/microchip/xc8/v2.36/avr/bin/../lib/gcc/avr/5.4.0/avr5/memx-const\libgcc.a(_umulhisi3.o)
+ .text          0x0000000000000000        0x0 c:/program files/microchip/xc8/v2.36/avr/bin/../lib/gcc/avr/5.4.0/avr5/memx-const\libgcc.a(_udivmodsi4.o)
+ .data          0x0000000000000000        0x0 c:/program files/microchip/xc8/v2.36/avr/bin/../lib/gcc/avr/5.4.0/avr5/memx-const\libgcc.a(_udivmodsi4.o)
+ .bss           0x0000000000000000        0x0 c:/program files/microchip/xc8/v2.36/avr/bin/../lib/gcc/avr/5.4.0/avr5/memx-const\libgcc.a(_udivmodsi4.o)
+ .text.libgcc.mul
+                0x0000000000000000        0x0 c:/program files/microchip/xc8/v2.36/avr/bin/../lib/gcc/avr/5.4.0/avr5/memx-const\libgcc.a(_udivmodsi4.o)
+ .stack.descriptors
+                0x0000000000000000       0x1a c:/program files/microchip/xc8/v2.36/avr/bin/../lib/gcc/avr/5.4.0/avr5/memx-const\libgcc.a(_udivmodsi4.o)
+ .text.libgcc   0x0000000000000000        0x0 c:/program files/microchip/xc8/v2.36/avr/bin/../lib/gcc/avr/5.4.0/avr5/memx-const\libgcc.a(_udivmodsi4.o)
+ .text.libgcc.prologue
+                0x0000000000000000        0x0 c:/program files/microchip/xc8/v2.36/avr/bin/../lib/gcc/avr/5.4.0/avr5/memx-const\libgcc.a(_udivmodsi4.o)
+ .text.libgcc.builtins
+                0x0000000000000000        0x0 c:/program files/microchip/xc8/v2.36/avr/bin/../lib/gcc/avr/5.4.0/avr5/memx-const\libgcc.a(_udivmodsi4.o)
+ .text.libgcc.fmul
+                0x0000000000000000        0x0 c:/program files/microchip/xc8/v2.36/avr/bin/../lib/gcc/avr/5.4.0/avr5/memx-const\libgcc.a(_udivmodsi4.o)
+ .text.libgcc.fixed
+                0x0000000000000000        0x0 c:/program files/microchip/xc8/v2.36/avr/bin/../lib/gcc/avr/5.4.0/avr5/memx-const\libgcc.a(_udivmodsi4.o)
+ .text          0x0000000000000000        0x0 c:/program files/microchip/xc8/v2.36/avr/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5/memx-const\libc.a(exit.o)
+ .data          0x0000000000000000        0x0 c:/program files/microchip/xc8/v2.36/avr/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5/memx-const\libc.a(exit.o)
+ .bss           0x0000000000000000        0x0 c:/program files/microchip/xc8/v2.36/avr/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5/memx-const\libc.a(exit.o)
+ .text          0x0000000000000000        0x0 c:/program files/microchip/xc8/v2.36/avr/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5/memx-const\libc.a(_Exit.o)
+ .data          0x0000000000000000        0x0 c:/program files/microchip/xc8/v2.36/avr/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5/memx-const\libc.a(_Exit.o)
+ .bss           0x0000000000000000        0x0 c:/program files/microchip/xc8/v2.36/avr/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5/memx-const\libc.a(_Exit.o)
+ .text          0x0000000000000000        0x0 c:/program files/microchip/xc8/v2.36/avr/bin/../lib/gcc/avr/5.4.0/avr5/memx-const\libgcc.a(_exit.o)
+ .data          0x0000000000000000        0x0 c:/program files/microchip/xc8/v2.36/avr/bin/../lib/gcc/avr/5.4.0/avr5/memx-const\libgcc.a(_exit.o)
+ .bss           0x0000000000000000        0x0 c:/program files/microchip/xc8/v2.36/avr/bin/../lib/gcc/avr/5.4.0/avr5/memx-const\libgcc.a(_exit.o)
+ .text.libgcc.mul
+                0x0000000000000000        0x0 c:/program files/microchip/xc8/v2.36/avr/bin/../lib/gcc/avr/5.4.0/avr5/memx-const\libgcc.a(_exit.o)
+ .text.libgcc.div
+                0x0000000000000000        0x0 c:/program files/microchip/xc8/v2.36/avr/bin/../lib/gcc/avr/5.4.0/avr5/memx-const\libgcc.a(_exit.o)
+ .text.libgcc   0x0000000000000000        0x0 c:/program files/microchip/xc8/v2.36/avr/bin/../lib/gcc/avr/5.4.0/avr5/memx-const\libgcc.a(_exit.o)
+ .text.libgcc.prologue
+                0x0000000000000000        0x0 c:/program files/microchip/xc8/v2.36/avr/bin/../lib/gcc/avr/5.4.0/avr5/memx-const\libgcc.a(_exit.o)
+ .stack.descriptors
+                0x0000000000000000       0x13 c:/program files/microchip/xc8/v2.36/avr/bin/../lib/gcc/avr/5.4.0/avr5/memx-const\libgcc.a(_exit.o)
+ .text.libgcc.builtins
+                0x0000000000000000        0x0 c:/program files/microchip/xc8/v2.36/avr/bin/../lib/gcc/avr/5.4.0/avr5/memx-const\libgcc.a(_exit.o)
+ .text.libgcc.fmul
+                0x0000000000000000        0x0 c:/program files/microchip/xc8/v2.36/avr/bin/../lib/gcc/avr/5.4.0/avr5/memx-const\libgcc.a(_exit.o)
+ .text.libgcc.fixed
+                0x0000000000000000        0x0 c:/program files/microchip/xc8/v2.36/avr/bin/../lib/gcc/avr/5.4.0/avr5/memx-const\libgcc.a(_exit.o)
+
+Memory Configuration
+
+Name             Origin             Length             Attributes
+text             0x0000000000000000 0x0000000000008000 xr
+data             0x0000000000800060 0x0000000000000800 rw !x
+eeprom           0x0000000000810000 0x0000000000000400 rw !x
+fuse             0x0000000000820000 0x0000000000000002 rw !x
+lock             0x0000000000830000 0x0000000000000400 rw !x
+signature        0x0000000000840000 0x0000000000000400 rw !x
+user_signatures  0x0000000000850000 0x0000000000000400 rw !x
+*default*        0x0000000000000000 0xffffffffffffffff
+
+Linker script and memory map
+
+LOAD C:/Program Files (x86)/Atmel/Studio/7.0/Packs/atmel/ATmega_DFP/1.7.374/xc8/avr/lib/avr5/memx-const/crtatmega32.o
+LOAD main.o
+LOAD Services/SPI_Services.o
+LOAD Services/usart_services.o
+LOAD SourceFiles/Source_HAL/LCD.o
+LOAD SourceFiles/Source_MCAL/DIO.o
+LOAD SourceFiles/Source_MCAL/DIO_CONFIG.o
+LOAD SourceFiles/Source_MCAL/EEPROM.o
+LOAD SourceFiles/Source_MCAL/EXT_INTERRUPT.o
+LOAD SourceFiles/Source_MCAL/SPI.o
+LOAD SourceFiles/Source_MCAL/Timers.o
+LOAD SourceFiles/Source_MCAL/USART.o
+LOAD SourceFiles/Source_MCAL/Watch_Dog.o
+LOAD tests/DIO_Test.o
+LOAD tests/EEPROM_Test.o
+LOAD tests/EXT_Interrupt_test.o
+LOAD tests/usart_test.o
+LOAD tests/WDT_test.o
+START GROUP
+LOAD c:/program files/microchip/xc8/v2.36/avr/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5/memx-const\libm.a
+END GROUP
+START GROUP
+LOAD c:/program files/microchip/xc8/v2.36/avr/bin/../lib/gcc/avr/5.4.0/avr5/memx-const\libgcc.a
+LOAD c:/program files/microchip/xc8/v2.36/avr/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5/memx-const\libm.a
+LOAD c:/program files/microchip/xc8/v2.36/avr/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5/memx-const\libc.a
+LOAD C:/Program Files (x86)/Atmel/Studio/7.0/Packs/atmel/ATmega_DFP/1.7.374/xc8/avr/lib/avr5/memx-const\libatmega32.a
+END GROUP
+                0x0000000000000000                __TEXT_REGION_ORIGIN__ = DEFINED (__TEXT_REGION_ORIGIN__)?__TEXT_REGION_ORIGIN__:0x0
+                [0x0000000000800060]                __DATA_REGION_ORIGIN__ = DEFINED (__DATA_REGION_ORIGIN__)?__DATA_REGION_ORIGIN__:0x800060
+                [0x0000000000008000]                __TEXT_REGION_LENGTH__ = DEFINED (__TEXT_REGION_LENGTH__)?__TEXT_REGION_LENGTH__:0x20000
+                [0x0000000000000800]                __DATA_REGION_LENGTH__ = DEFINED (__DATA_REGION_LENGTH__)?__DATA_REGION_LENGTH__:0xffa0
+                [0x0000000000000400]                __EEPROM_REGION_LENGTH__ = DEFINED (__EEPROM_REGION_LENGTH__)?__EEPROM_REGION_LENGTH__:0x10000
+                [0x0000000000000002]                __FUSE_REGION_LENGTH__ = DEFINED (__FUSE_REGION_LENGTH__)?__FUSE_REGION_LENGTH__:0x400
+                0x0000000000000400                __LOCK_REGION_LENGTH__ = DEFINED (__LOCK_REGION_LENGTH__)?__LOCK_REGION_LENGTH__:0x400
+                0x0000000000000400                __SIGNATURE_REGION_LENGTH__ = DEFINED (__SIGNATURE_REGION_LENGTH__)?__SIGNATURE_REGION_LENGTH__:0x400
+                0x0000000000000400                __USER_SIGNATURE_REGION_LENGTH__ = DEFINED (__USER_SIGNATURE_REGION_LENGTH__)?__USER_SIGNATURE_REGION_LENGTH__:0x400
+
+.hash
+ *(.hash)
+
+.dynsym
+ *(.dynsym)
+
+.dynstr
+ *(.dynstr)
+
+.gnu.version
+ *(.gnu.version)
+
+.gnu.version_d
+ *(.gnu.version_d)
+
+.gnu.version_r
+ *(.gnu.version_r)
+
+.rel.init
+ *(.rel.init)
+
+.rela.init
+ *(.rela.init)
+
+.rel.text
+ *(.rel.text)
+ *(.rel.text.*)
+ *(.rel.gnu.linkonce.t*)
+
+.rela.text
+ *(.rela.text)
+ *(.rela.text.*)
+ *(.rela.gnu.linkonce.t*)
+
+.rel.fini
+ *(.rel.fini)
+
+.rela.fini
+ *(.rela.fini)
+
+.rel.rodata
+ *(.rel.rodata)
+ *(.rel.rodata.*)
+ *(.rel.gnu.linkonce.r*)
+
+.rela.rodata
+ *(.rela.rodata)
+ *(.rela.rodata.*)
+ *(.rela.gnu.linkonce.r*)
+
+.rel.data
+ *(.rel.data)
+ *(.rel.data.*)
+ *(.rel.gnu.linkonce.d*)
+
+.rela.data
+ *(.rela.data)
+ *(.rela.data.*)
+ *(.rela.gnu.linkonce.d*)
+
+.rel.ctors
+ *(.rel.ctors)
+
+.rela.ctors
+ *(.rela.ctors)
+
+.rel.dtors
+ *(.rel.dtors)
+
+.rela.dtors
+ *(.rela.dtors)
+
+.rel.got
+ *(.rel.got)
+
+.rela.got
+ *(.rela.got)
+
+.rel.bss
+ *(.rel.bss)
+
+.rela.bss
+ *(.rela.bss)
+
+.rel.plt
+ *(.rel.plt)
+
+.rela.plt
+ *(.rela.plt)
+
+.text           0x0000000000000000       0xae
+ *(.vectors)
+ .vectors       0x0000000000000000       0x54 C:/Program Files (x86)/Atmel/Studio/7.0/Packs/atmel/ATmega_DFP/1.7.374/xc8/avr/lib/avr5/memx-const/crtatmega32.o
+                0x0000000000000000                __vector_default
+                0x0000000000000000                __vectors
+ *(.vectors)
+ *(.progmem.gcc*)
+ *(.dinit)
+ .dinit         0x0000000000000054        0x5 data_init
+                0x000000000000005a                . = ALIGN (0x2)
+ *fill*         0x0000000000000059        0x1 
+                0x000000000000005a                __trampolines_start = .
+ *(.trampolines)
+ .trampolines   0x000000000000005a        0x0 linker stubs
+ *(.trampolines*)
+                0x000000000000005a                __trampolines_end = .
+ *libprintf_flt.a:*(.progmem.data)
+ *libc.a:*(.progmem.data)
+                0x000000000000005a                . = ALIGN (0x2)
+ *(.jumptables)
+ *(.jumptables*)
+ *(.lowtext)
+ *(.lowtext*)
+                0x000000000000005a                __ctors_start = .
+ *(.ctors)
+                0x000000000000005a                __ctors_end = .
+                0x000000000000005a                __dtors_start = .
+ *(.dtors)
+                0x000000000000005a                __dtors_end = .
+ SORT(*)(.ctors)
+ SORT(*)(.dtors)
+ *(.init0)
+ .init0         0x000000000000005a        0x0 C:/Program Files (x86)/Atmel/Studio/7.0/Packs/atmel/ATmega_DFP/1.7.374/xc8/avr/lib/avr5/memx-const/crtatmega32.o
+                0x000000000000005a                __init
+ *(.init0)
+ *(.init1)
+ *(.init1)
+ *(.init2)
+ .init2         0x000000000000005a        0xc C:/Program Files (x86)/Atmel/Studio/7.0/Packs/atmel/ATmega_DFP/1.7.374/xc8/avr/lib/avr5/memx-const/crtatmega32.o
+ *(.init2)
+ *(.init3)
+ *(.init3)
+ *(.init4)
+ .init4         0x0000000000000066       0x3c c:/program files/microchip/xc8/v2.36/avr/bin/../lib/gcc/avr/5.4.0/avr5/memx-const\libgcc.a(_copy_data.o)
+                0x0000000000000066                __do_copy_data
+                0x0000000000000094                __do_clear_bss
+ *(.init4)
+ *(.init5)
+ *(.init5)
+ *(.init6)
+ *(.init6)
+ *(.init7)
+ *(.init7)
+ *(.init8)
+ *(.init8)
+ *(.init9)
+ .init9         0x00000000000000a2        0x8 C:/Program Files (x86)/Atmel/Studio/7.0/Packs/atmel/ATmega_DFP/1.7.374/xc8/avr/lib/avr5/memx-const/crtatmega32.o
+ *(.init9)
+                0x00000000000000aa                . = ALIGN (0x2)
+ *(.fini9)
+ .fini9         0x00000000000000aa        0x0 c:/program files/microchip/xc8/v2.36/avr/bin/../lib/gcc/avr/5.4.0/avr5/memx-const\libgcc.a(_exit.o)
+                0x00000000000000aa                _exit
+ *(.fini9)
+ *(.fini8)
+ *(.fini8)
+ *(.fini7)
+ *(.fini7)
+ *(.fini6)
+ *(.fini6)
+ *(.fini5)
+ *(.fini5)
+ *(.fini4)
+ *(.fini4)
+ *(.fini3)
+ *(.fini3)
+ *(.fini2)
+ *(.fini2)
+ *(.fini1)
+ *(.fini1)
+ *(.fini0)
+ .fini0         0x00000000000000aa        0x4 c:/program files/microchip/xc8/v2.36/avr/bin/../lib/gcc/avr/5.4.0/avr5/memx-const\libgcc.a(_exit.o)
+ *(.fini0)
+                0x00000000000000ae                _etext = .
+
+.data           0x0000000000800060        0x0 load address 0x00000000000000ae
+                [!provide]                        PROVIDE (__data_start, .)
+ *(.gnu.linkonce.d*)
+ *(.gnu.linkonce.r*)
+                0x0000000000800060                . = ALIGN (0x2)
+                0x0000000000800060                _edata = .
+                [!provide]                        PROVIDE (__data_end, .)
+
+.bss            0x0000000000800060        0x0
+                [!provide]                        PROVIDE (__bss_start, .)
+ *(COMMON)
+                [!provide]                        PROVIDE (__bss_end, .)
+                0x00000000000000ae                __data_load_start = LOADADDR (.data)
+                0x00000000000000ae                __data_load_end = (__data_load_start + SIZEOF (.data))
+
+.noinit         0x0000000000800060        0x0
+                [!provide]                        PROVIDE (__noinit_start, .)
+ *(.noinit*)
+                [!provide]                        PROVIDE (__noinit_end, .)
+                0x0000000000800060                _end = .
+
+.eeprom         0x0000000000810000        0x0
+ *(.eeprom*)
+                0x0000000000810000                __eeprom_end = .
+
+.fuse
+ *(.fuse)
+ *(.lfuse)
+ *(.hfuse)
+ *(.efuse)
+
+.lock
+ *(.lock*)
+
+.signature
+ *(.signature*)
+
+.user_signatures
+ *(.user_signatures*)
+
+.stab
+ *(.stab)
+
+.stabstr
+ *(.stabstr)
+
+.stab.excl
+ *(.stab.excl)
+
+.stab.exclstr
+ *(.stab.exclstr)
+
+.stab.index
+ *(.stab.index)
+
+.stab.indexstr
+ *(.stab.indexstr)
+
+.comment        0x0000000000000000       0x2f
+ *(.comment)
+ .comment       0x0000000000000000       0x2f main.o
+                                         0x30 (size before relaxing)
+ .comment       0x000000000000002f       0x30 SourceFiles/Source_HAL/LCD.o
+ .comment       0x000000000000002f       0x30 SourceFiles/Source_MCAL/DIO.o
+ .comment       0x000000000000002f       0x30 SourceFiles/Source_MCAL/DIO_CONFIG.o
+ .comment       0x000000000000002f       0x30 SourceFiles/Source_MCAL/EXT_INTERRUPT.o
+ .comment       0x000000000000002f       0x30 SourceFiles/Source_MCAL/Timers.o
+ .comment       0x000000000000002f       0x30 SourceFiles/Source_MCAL/USART.o
+ .comment       0x000000000000002f       0x30 c:/program files/microchip/xc8/v2.36/avr/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5/memx-const\libc.a(exit.o)
+ .comment       0x000000000000002f       0x30 c:/program files/microchip/xc8/v2.36/avr/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5/memx-const\libc.a(_Exit.o)
+
+.stack.descriptors.hdr
+                0x0000000000000000       0x38
+ .stack.descriptors.hdr
+                0x0000000000000000        0xe c:/program files/microchip/xc8/v2.36/avr/bin/../lib/gcc/avr/5.4.0/avr5/memx-const\libgcc.a(_divmodsi4.o)
+ .stack.descriptors.hdr
+                0x000000000000000e        0xe c:/program files/microchip/xc8/v2.36/avr/bin/../lib/gcc/avr/5.4.0/avr5/memx-const\libgcc.a(_negsi2.o)
+ .stack.descriptors.hdr
+                0x000000000000001c        0xe c:/program files/microchip/xc8/v2.36/avr/bin/../lib/gcc/avr/5.4.0/avr5/memx-const\libgcc.a(_udivmodsi4.o)
+ .stack.descriptors.hdr
+                0x000000000000002a        0xe c:/program files/microchip/xc8/v2.36/avr/bin/../lib/gcc/avr/5.4.0/avr5/memx-const\libgcc.a(_exit.o)
+
+.note.GNU-stack
+                0x0000000000000000        0x0
+ .note.GNU-stack
+                0x0000000000000000        0x0 c:/program files/microchip/xc8/v2.36/avr/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5/memx-const\libc.a(exit.o)
+ .note.GNU-stack
+                0x0000000000000000        0x0 c:/program files/microchip/xc8/v2.36/avr/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5/memx-const\libc.a(_Exit.o)
+
+.note.gnu.build-id
+ *(.note.gnu.build-id)
+
+.debug
+ *(.debug)
+
+.line
+ *(.line)
+
+.debug_srcinfo
+ *(.debug_srcinfo)
+
+.debug_sfnames
+ *(.debug_sfnames)
+
+.debug_aranges  0x0000000000000000      0x2d8
+ *(.debug_aranges)
+ .debug_aranges
+                0x0000000000000000       0x20 main.o
+ .debug_aranges
+                0x0000000000000020       0x88 SourceFiles/Source_HAL/LCD.o
+ .debug_aranges
+                0x00000000000000a8       0x48 SourceFiles/Source_MCAL/DIO.o
+ .debug_aranges
+                0x00000000000000f0       0x18 SourceFiles/Source_MCAL/DIO_CONFIG.o
+ .debug_aranges
+                0x0000000000000108       0x50 SourceFiles/Source_MCAL/EXT_INTERRUPT.o
+ .debug_aranges
+                0x0000000000000158      0x148 SourceFiles/Source_MCAL/Timers.o
+ .debug_aranges
+                0x00000000000002a0       0x38 SourceFiles/Source_MCAL/USART.o
+
+.debug_pubnames
+ *(.debug_pubnames)
+
+.debug_info     0x0000000000000000     0x42ad
+ *(.debug_info .gnu.linkonce.wi.*)
+ .debug_info    0x0000000000000000      0x4e6 C:/Program Files (x86)/Atmel/Studio/7.0/Packs/atmel/ATmega_DFP/1.7.374/xc8/avr/lib/avr5/memx-const/crtatmega32.o
+ .debug_info    0x00000000000004e6      0x606 main.o
+ .debug_info    0x0000000000000aec      0xf7d SourceFiles/Source_HAL/LCD.o
+ .debug_info    0x0000000000001a69      0x7a5 SourceFiles/Source_MCAL/DIO.o
+ .debug_info    0x000000000000220e      0x3e2 SourceFiles/Source_MCAL/DIO_CONFIG.o
+ .debug_info    0x00000000000025f0      0x53e SourceFiles/Source_MCAL/EXT_INTERRUPT.o
+ .debug_info    0x0000000000002b2e     0x11c8 SourceFiles/Source_MCAL/Timers.o
+ .debug_info    0x0000000000003cf6      0x5b7 SourceFiles/Source_MCAL/USART.o
+
+.debug_abbrev   0x0000000000000000      0xc11
+ *(.debug_abbrev)
+ .debug_abbrev  0x0000000000000000      0x4a3 C:/Program Files (x86)/Atmel/Studio/7.0/Packs/atmel/ATmega_DFP/1.7.374/xc8/avr/lib/avr5/memx-const/crtatmega32.o
+ .debug_abbrev  0x00000000000004a3       0xcd main.o
+ .debug_abbrev  0x0000000000000570      0x19b SourceFiles/Source_HAL/LCD.o
+ .debug_abbrev  0x000000000000070b      0x1ab SourceFiles/Source_MCAL/DIO.o
+ .debug_abbrev  0x00000000000008b6       0x49 SourceFiles/Source_MCAL/DIO_CONFIG.o
+ .debug_abbrev  0x00000000000008ff       0xb7 SourceFiles/Source_MCAL/EXT_INTERRUPT.o
+ .debug_abbrev  0x00000000000009b6      0x18d SourceFiles/Source_MCAL/Timers.o
+ .debug_abbrev  0x0000000000000b43       0xce SourceFiles/Source_MCAL/USART.o
+
+.debug_line     0x0000000000000000     0x1876
+ *(.debug_line .debug_line.* .debug_line_end)
+ .debug_line    0x0000000000000000      0x119 C:/Program Files (x86)/Atmel/Studio/7.0/Packs/atmel/ATmega_DFP/1.7.374/xc8/avr/lib/avr5/memx-const/crtatmega32.o
+ .debug_line    0x0000000000000119       0xe6 main.o
+ .debug_line    0x00000000000001ff      0x505 SourceFiles/Source_HAL/LCD.o
+ .debug_line    0x0000000000000704      0x54e SourceFiles/Source_MCAL/DIO.o
+ .debug_line    0x0000000000000c52       0x69 SourceFiles/Source_MCAL/DIO_CONFIG.o
+ .debug_line    0x0000000000000cbb      0x336 SourceFiles/Source_MCAL/EXT_INTERRUPT.o
+ .debug_line    0x0000000000000ff1      0x68b SourceFiles/Source_MCAL/Timers.o
+ .debug_line    0x000000000000167c      0x1fa SourceFiles/Source_MCAL/USART.o
+
+.debug_frame    0x0000000000000000      0x884
+ *(.debug_frame)
+ .debug_frame   0x0000000000000000       0x34 main.o
+ .debug_frame   0x0000000000000034      0x18c SourceFiles/Source_HAL/LCD.o
+ .debug_frame   0x00000000000001c0       0x84 SourceFiles/Source_MCAL/DIO.o
+ .debug_frame   0x0000000000000244      0x15c SourceFiles/Source_MCAL/EXT_INTERRUPT.o
+ .debug_frame   0x00000000000003a0      0x46c SourceFiles/Source_MCAL/Timers.o
+ .debug_frame   0x000000000000080c       0x78 SourceFiles/Source_MCAL/USART.o
+
+.debug_str      0x0000000000000000      0x221
+ *(.debug_str)
+ .debug_str     0x0000000000000000      0x196 C:/Program Files (x86)/Atmel/Studio/7.0/Packs/atmel/ATmega_DFP/1.7.374/xc8/avr/lib/avr5/memx-const/crtatmega32.o
+ .debug_str     0x0000000000000196       0x56 main.o
+ .debug_str     0x00000000000001ec        0xe SourceFiles/Source_HAL/LCD.o
+ .debug_str     0x00000000000001fa        0x8 SourceFiles/Source_MCAL/DIO.o
+ .debug_str     0x0000000000000202        0x0 SourceFiles/Source_MCAL/DIO_CONFIG.o
+ .debug_str     0x0000000000000202        0x0 SourceFiles/Source_MCAL/EXT_INTERRUPT.o
+ .debug_str     0x0000000000000202       0x1f SourceFiles/Source_MCAL/Timers.o
+ .debug_str     0x0000000000000221        0x0 SourceFiles/Source_MCAL/USART.o
+
+.debug_loc      0x0000000000000000     0x2324
+ *(.debug_loc)
+ .debug_loc     0x0000000000000000       0x48 main.o
+ .debug_loc     0x0000000000000048      0x9d2 SourceFiles/Source_HAL/LCD.o
+ .debug_loc     0x0000000000000a1a      0x82f SourceFiles/Source_MCAL/DIO.o
+ .debug_loc     0x0000000000001249      0x524 SourceFiles/Source_MCAL/EXT_INTERRUPT.o
+ .debug_loc     0x000000000000176d      0x937 SourceFiles/Source_MCAL/Timers.o
+ .debug_loc     0x00000000000020a4      0x280 SourceFiles/Source_MCAL/USART.o
+
+.debug_macinfo
+ *(.debug_macinfo)
+
+.debug_weaknames
+ *(.debug_weaknames)
+
+.debug_funcnames
+ *(.debug_funcnames)
+
+.debug_typenames
+ *(.debug_typenames)
+
+.debug_varnames
+ *(.debug_varnames)
+
+.debug_pubtypes
+ *(.debug_pubtypes)
+
+.debug_ranges   0x0000000000000000      0x318
+ *(.debug_ranges)
+ .debug_ranges  0x0000000000000000       0x10 main.o
+ .debug_ranges  0x0000000000000010       0x78 SourceFiles/Source_HAL/LCD.o
+ .debug_ranges  0x0000000000000088       0xf0 SourceFiles/Source_MCAL/DIO.o
+ .debug_ranges  0x0000000000000178       0x40 SourceFiles/Source_MCAL/EXT_INTERRUPT.o
+ .debug_ranges  0x00000000000001b8      0x138 SourceFiles/Source_MCAL/Timers.o
+ .debug_ranges  0x00000000000002f0       0x28 SourceFiles/Source_MCAL/USART.o
+
+.debug_macro
+ *(.debug_macro)
+OUTPUT(XC8Application1.elf elf32-avr)
+LOAD linker stubs
+LOAD data_init
+
+.note.gnu.avr.deviceinfo
+                0x0000000000000000       0x3c
+ .note.gnu.avr.deviceinfo
+                0x0000000000000000       0x3c C:/Program Files (x86)/Atmel/Studio/7.0/Packs/atmel/ATmega_DFP/1.7.374/xc8/avr/lib/avr5/memx-const/crtatmega32.o
+
+.bss.INT2_FPtr  0x0000000000800060        0x2
+ .bss.INT2_FPtr
+                0x0000000000800060        0x2 SourceFiles/Source_MCAL/EXT_INTERRUPT.o
+
+.bss.INT1_FPtr  0x0000000000800062        0x2
+ .bss.INT1_FPtr
+                0x0000000000800062        0x2 SourceFiles/Source_MCAL/EXT_INTERRUPT.o
+
+.bss.INT0_FPtr  0x0000000000800064        0x2
+ .bss.INT0_FPtr
+                0x0000000000800064        0x2 SourceFiles/Source_MCAL/EXT_INTERRUPT.o
+
+.bss.Timer2_OC_Fptr
+                0x0000000000800066        0x2
+ .bss.Timer2_OC_Fptr
+                0x0000000000800066        0x2 SourceFiles/Source_MCAL/Timers.o
+
+.bss.Timer2_OVF_Fptr
+                0x0000000000800068        0x2
+ .bss.Timer2_OVF_Fptr
+                0x0000000000800068        0x2 SourceFiles/Source_MCAL/Timers.o
+
+.bss.Timer1_OCB_Fptr
+                0x000000000080006a        0x2
+ .bss.Timer1_OCB_Fptr
+                0x000000000080006a        0x2 SourceFiles/Source_MCAL/Timers.o
+
+.bss.Timer1_OCA_Fptr
+                0x000000000080006c        0x2
+ .bss.Timer1_OCA_Fptr
+                0x000000000080006c        0x2 SourceFiles/Source_MCAL/Timers.o
+
+.bss.Timer1_OVF_Fptr
+                0x000000000080006e        0x2
+ .bss.Timer1_OVF_Fptr
+                0x000000000080006e        0x2 SourceFiles/Source_MCAL/Timers.o
+
+.bss.Timer0_OC_Fptr
+                0x0000000000800070        0x2
+ .bss.Timer0_OC_Fptr
+                0x0000000000800070        0x2 SourceFiles/Source_MCAL/Timers.o
+
+.bss.Timer0_OVF_Fptr
+                0x0000000000800072        0x2
+ .bss.Timer0_OVF_Fptr
+                0x0000000000800072        0x2 SourceFiles/Source_MCAL/Timers.o
+
+.progmemx.data.Pins_Status_Array
+                0x00000000000000ae       0x20
+ .progmemx.data.Pins_Status_Array
+                0x00000000000000ae       0x20 SourceFiles/Source_MCAL/DIO_CONFIG.o
+                0x00000000000000ae                Pins_Status_Array
+
+.text.DIO_init  0x00000000000000ce      0x290
+ .text.DIO_init
+                0x00000000000000ce      0x290 SourceFiles/Source_MCAL/DIO.o
+                0x00000000000000ce                DIO_init
+
+.text.DIO_Write_Pin
+                0x000000000000035e      0x13c
+ .text.DIO_Write_Pin
+                0x000000000000035e      0x13c SourceFiles/Source_MCAL/DIO.o
+                0x000000000000035e                DIO_Write_Pin
+
+.text.USART_Init
+                0x000000000000049a      0x104
+ .text.USART_Init
+                0x000000000000049a      0x104 SourceFiles/Source_MCAL/USART.o
+                0x000000000000049a                USART_Init
+
+.text.LCD_WriteCommand
+                0x000000000000059e       0xc0
+ .text.LCD_WriteCommand
+                0x000000000000059e       0xc0 SourceFiles/Source_HAL/LCD.o
+
+.text.LCD_WriteData
+                0x000000000000065e       0xc0
+ .text.LCD_WriteData
+                0x000000000000065e       0xc0 SourceFiles/Source_HAL/LCD.o
+
+.text.__vector_11
+                0x000000000000071e       0x5a
+ .text.__vector_11
+                0x000000000000071e       0x5a SourceFiles/Source_MCAL/Timers.o
+                0x000000000000071e                __vector_11
+
+.text.__vector_10
+                0x0000000000000778       0x5a
+ .text.__vector_10
+                0x0000000000000778       0x5a SourceFiles/Source_MCAL/Timers.o
+                0x0000000000000778                __vector_10
+
+.text.main      0x00000000000007d2       0x52
+ .text.main     0x00000000000007d2       0x52 main.o
+                0x00000000000007d2                main
+
+.text.__vector_1
+                0x0000000000000824       0x52
+ .text.__vector_1
+                0x0000000000000824       0x52 SourceFiles/Source_MCAL/EXT_INTERRUPT.o
+                0x0000000000000824                __vector_1
+
+.text.__vector_2
+                0x0000000000000876       0x52
+ .text.__vector_2
+                0x0000000000000876       0x52 SourceFiles/Source_MCAL/EXT_INTERRUPT.o
+                0x0000000000000876                __vector_2
+
+.text.__vector_3
+                0x00000000000008c8       0x52
+ .text.__vector_3
+                0x00000000000008c8       0x52 SourceFiles/Source_MCAL/EXT_INTERRUPT.o
+                0x00000000000008c8                __vector_3
+
+.text.__vector_9
+                0x000000000000091a       0x52
+ .text.__vector_9
+                0x000000000000091a       0x52 SourceFiles/Source_MCAL/Timers.o
+                0x000000000000091a                __vector_9
+
+.text.__vector_7
+                0x000000000000096c       0x52
+ .text.__vector_7
+                0x000000000000096c       0x52 SourceFiles/Source_MCAL/Timers.o
+                0x000000000000096c                __vector_7
+
+.text.__vector_8
+                0x00000000000009be       0x52
+ .text.__vector_8
+                0x00000000000009be       0x52 SourceFiles/Source_MCAL/Timers.o
+                0x00000000000009be                __vector_8
+
+.text.__vector_5
+                0x0000000000000a10       0x52
+ .text.__vector_5
+                0x0000000000000a10       0x52 SourceFiles/Source_MCAL/Timers.o
+                0x0000000000000a10                __vector_5
+
+.text.__vector_4
+                0x0000000000000a62       0x52
+ .text.__vector_4
+                0x0000000000000a62       0x52 SourceFiles/Source_MCAL/Timers.o
+                0x0000000000000a62                __vector_4
+
+.text.libgcc.div
+                0x0000000000000ab4       0x44
+ .text.libgcc.div
+                0x0000000000000ab4       0x44 c:/program files/microchip/xc8/v2.36/avr/bin/../lib/gcc/avr/5.4.0/avr5/memx-const\libgcc.a(_udivmodsi4.o)
+                0x0000000000000ab4                __udivmodsi4
+
+.text.LCD_Init  0x0000000000000af8       0x3e
+ .text.LCD_Init
+                0x0000000000000af8       0x3e SourceFiles/Source_HAL/LCD.o
+                0x0000000000000af8                LCD_Init
+
+.text.libgcc.div
+                0x0000000000000b36       0x2e
+ .text.libgcc.div
+                0x0000000000000b36       0x2e c:/program files/microchip/xc8/v2.36/avr/bin/../lib/gcc/avr/5.4.0/avr5/memx-const\libgcc.a(_divmodsi4.o)
+                0x0000000000000b36                __divmodsi4
+
+.text.USART_Receive
+                0x0000000000000b64       0x18
+ .text.USART_Receive
+                0x0000000000000b64       0x18 SourceFiles/Source_MCAL/USART.o
+                0x0000000000000b64                USART_Receive
+
+.text.exit      0x0000000000000b7c       0x16
+ .text.exit     0x0000000000000b7c       0x16 c:/program files/microchip/xc8/v2.36/avr/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5/memx-const\libc.a(exit.o)
+                0x0000000000000b7c                exit
+
+.text.libgcc.div
+                0x0000000000000b92       0x10
+ .text.libgcc.div
+                0x0000000000000b92       0x10 c:/program files/microchip/xc8/v2.36/avr/bin/../lib/gcc/avr/5.4.0/avr5/memx-const\libgcc.a(_negsi2.o)
+                0x0000000000000b92                __negsi2
+
+.text.USART_Transmit
+                0x0000000000000ba2        0xa
+ .text.USART_Transmit
+                0x0000000000000ba2        0xa SourceFiles/Source_MCAL/USART.o
+                0x0000000000000ba2                USART_Transmit
+
+.text.LCD_WriteChar
+                0x0000000000000bac        0x6
+ .text.LCD_WriteChar
+                0x0000000000000bac        0x6 SourceFiles/Source_HAL/LCD.o
+                0x0000000000000bac                LCD_WriteChar
+
+.text           0x0000000000000bb2        0x4
+ .text          0x0000000000000bb2        0x4 C:/Program Files (x86)/Atmel/Studio/7.0/Packs/atmel/ATmega_DFP/1.7.374/xc8/avr/lib/avr5/memx-const/crtatmega32.o
+                0x0000000000000bb2                __vector_12
+                0x0000000000000bb2                __bad_interrupt
+                0x0000000000000bb2                __vector_6
+                0x0000000000000bb2                __vector_13
+                0x0000000000000bb2                __vector_17
+                0x0000000000000bb2                __vector_19
+                0x0000000000000bb2                __vector_15
+                0x0000000000000bb2                __vector_14
+                0x0000000000000bb2                __vector_16
+                0x0000000000000bb2                __vector_18
+                0x0000000000000bb2                __vector_20
+
+.text._Exit     0x0000000000000bb6        0x4
+ .text._Exit    0x0000000000000bb6        0x4 c:/program files/microchip/xc8/v2.36/avr/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5/memx-const\libc.a(_Exit.o)
+                0x0000000000000bb6                _Exit
+
+.text.__dummy_fini
+                0x0000000000000bba        0x2
+ .text.__dummy_fini
+                0x0000000000000bba        0x2 c:/program files/microchip/xc8/v2.36/avr/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5/memx-const\libc.a(exit.o)
+                0x0000000000000bba                _fini
+
+.text.__dummy_funcs_on_exit
+                0x0000000000000bbc        0x2
+ .text.__dummy_funcs_on_exit
+                0x0000000000000bbc        0x2 c:/program files/microchip/xc8/v2.36/avr/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5/memx-const\libc.a(exit.o)
+                0x0000000000000bbc                __funcs_on_exit
+
+.text.__dummy_simulator_exit
+                0x0000000000000bbe        0x2
+ .text.__dummy_simulator_exit
+                0x0000000000000bbe        0x2 c:/program files/microchip/xc8/v2.36/avr/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5/memx-const\libc.a(exit.o)
+                0x0000000000000bbe                __simulator_exit
