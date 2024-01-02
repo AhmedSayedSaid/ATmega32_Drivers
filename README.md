@@ -10,8 +10,7 @@ This repository contains a comprehensive collection of drivers for the ATmega32 
 - HAL Drivers
 - Helper Functions and Definitions
 - SPI and USART Service Drivers
-- Contributing
-- Authors
+- Test Cases for Entire Driver
 - License
 - Acknowledgments
 
@@ -76,7 +75,7 @@ Contributions to this project are welcome. Adherence to the existing code struct
 
 ## License
 
-This project is licensed under the MIT License - see the `LICENSE.md` file for details.
+This project is licensed under the MIT License
 
 ## Acknowledgments
 
@@ -84,7 +83,7 @@ Hat tip to anyone whose code was used. Special thanks to Eng. Mohamed Abdel-Base
 
 
 
-
+##
 
 
 # ATmega32 Drivers Test Cases Documentation
