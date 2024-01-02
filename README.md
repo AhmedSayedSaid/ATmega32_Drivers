@@ -2,7 +2,7 @@
 
 ## Overview
 
-This repository contains a comprehensive collection of drivers for the ATmega32 microcontroller, essential for embedded systems development. The drivers are written in C, structured to provide clear, modular interfacing with various peripherals and modules.
+This repository contains a comprehensive collection of drivers for the ATmega32 microcontroller, essential for embedded systems development. The drivers are written in C, structured to provide clear, modular interfacing with various peripherals and modules , please check the header files for detailed documintaion of the drivers.
 
 ## Contents
 
@@ -11,7 +11,6 @@ This repository contains a comprehensive collection of drivers for the ATmega32 
 - Helper Functions and Definitions
 - SPI and USART Service Drivers
 - Test Cases for Entire Driver
-- License
 - Acknowledgments
 
 ## MCAL Drivers
@@ -68,29 +67,19 @@ This repository contains a comprehensive collection of drivers for the ATmega32 
 - **File**: `USART_Services.h`
 - **Functionality**: Enhanced USART communication services.
 
-## Contributing
-
-Contributions to this project are welcome. Adherence to the existing code structure and comment styles is appreciated.
-
-
-## License
-
-This project is licensed under the MIT License
-
-## Acknowledgments
-
-Hat tip to anyone whose code was used. Special thanks to Eng. Mohamed Abdel-Baset for inspiration.
-
-
 
 ##
+
+ 
+
+
 
 
 # ATmega32 Drivers Test Cases Documentation
 
 ## Overview
 
-This comprehensive guide provides test cases for ATmega32 microcontroller drivers, ensuring functionality and reliability. The tests are tailored for the ETA mini 32 platform.
+This comprehensive guide provides test cases for ATmega32 microcontroller drivers, ensuring functionality and reliability. The tests are tailored for the ETA mini 32 platform and please see the test case inside the test folder for more detailed viewing of the code.
 
 ## Contents
 
@@ -110,36 +99,85 @@ This comprehensive guide provides test cases for ATmega32 microcontroller driver
 
 To execute these test cases:
 
-1. Clone the repository with all driver modules.
+1. Clone the repository with all driver modules: [ATmega32_Drivers Repository](https://github.com/AhmedSayedSaid/ATmega32_Drivers)
 2. Incorporate the test case content into your `main.c` file.
 3. Before compling the project comment all the code of the test cases inside the tests folder
 4. Compile and upload the code to the ETA mini 32.
 5. Observe and compare the results with the expected outcomes.
 
+## DIO Test Suite Documentation
 
-## Test Case for Digital I/O (DIO)
+## Overview
 
-### Objective
+Authored by Ahmed Sayed Said, this test suite (`DIO_test.c`) is designed to validate the functionality of the DIO driver for the ATmega32 microcontroller. The tests check each function of the DIO driver and indicate failures using LEDs connected to Port C of the ATmega32.
 
-To verify the Digital I/O (DIO) driver's efficiency in managing ATmega32 ports.
+## Test Environment Setup
 
-### Test Procedure
+Before running the tests, ensure the following setup:
+- LEDs are connected to Port C, with each LED corresponding to a specific test case.
+- The project should be compiled with all the test cases commented out for normal operation.
 
-- **Setup**: Configure microcontroller pins for digital I/O.
-- **Execution**: Conduct read/write operations on the pins.
-- **Validation**: Ensure read values correspond to expected output.
+## LED Indications on Port C
 
-### Test Steps
+Each LED on Port C corresponds to a specific test case:
+- **LED 0 (PC0)**: Failure in `testDIOInit()`.
+- **LED 1 (PC1)**: Failure in `testDIOWritePinInvalidInputs()`.
+- **LED 2 (PC2)**: Failure in `testDIOReadPinInvalidInputs()`.
+- **LED 3 (PC3)**: Failure in `testDIOTogglePinInvalidInputs()`.
+- **LED 4 (PC4)**: Failure in `testDIOWriteReadPin()`.
+- **LED 5 (PC5)**: Failure in `testDIOTogglePin()`.
+- **LED 6 (PC6)**: Failure in `testDIOWritePortInvalidInputs()`.
+- **LED 7 (PC7)**: Failure in `testDIOWriteReadPort()`.
 
-1. Initialize the DIO driver.
-2. Set `PINA0` to output, writing a HIGH signal.
-3. Set `PINA1` to input, reading the signal.
-4. Compare the read value with the expected result.
+## Test Cases Implementation
 
-### Expected Results
+### `testDIOInit()`
+- **Objective**: Verify successful initialization of the DIO driver.
+- **Method**: Check if `DIO_init()` returns `SUCCESS`.
+- **Failure Indicator**: LED 0 (PC0) lights up upon failure.
 
-- Successful HIGH signal on `PINA0`.
-- `PINA1` reads back the value written to `PINA0`.
+### `testDIOWritePinInvalidInputs()`
+- **Objective**: Ensure `DIO_Write_Pin()` handles invalid inputs correctly.
+- **Method**: Pass an invalid pin number and expect `PARAM_ERROR`.
+- **Failure Indicator**: LED 1 (PC1) lights up upon failure.
+
+### `testDIOReadPinInvalidInputs()`
+- **Objective**: Validate `DIO_read_pin()` for incorrect pin inputs.
+- **Method**: Use an invalid pin and verify the function returns `PARAM_ERROR`.
+- **Failure Indicator**: LED 2 (PC2) lights up upon failure.
+
+### `testDIOTogglePinInvalidInputs()`
+- **Objective**: Check `DIO_toggle_pin()` for invalid pin handling.
+- **Method**: Input an invalid pin number and expect `PARAM_ERROR`.
+- **Failure Indicator**: LED 3 (PC3) lights up upon failure.
+
+### `testDIOWriteReadPin()`
+- **Objective**: Test writing and reading a pin value.
+- **Method**: Write and then read from a pin, check for consistency.
+- **Failure Indicator**: LED 4 (PC4) lights up upon failure.
+
+### `testDIOTogglePin()`
+- **Objective**: Verify the toggle functionality of a pin.
+- **Method**: Toggle a pin and check the resulting value.
+- **Failure Indicator**: LED 5 (PC5) lights up upon failure.
+
+### `testDIOWritePortInvalidInputs()`
+- **Objective**: Validate `DIO_Write_Port()` for incorrect port inputs.
+- **Method**: Pass an invalid port number and expect `PARAM_ERROR`.
+- **Failure Indicator**: LED 6 (PC6) lights up upon failure.
+
+### `testDIOWriteReadPort()`
+- **Objective**: Test writing and reading from a port.
+- **Method**: Write to a port and read back, checking for accuracy.
+- **Failure Indicator**: LED 7 (PC7) lights up upon failure.
+
+## Running the Test Suite
+
+To run the tests:
+1. Initialize Port C as output for LED indications.
+2. Execute each test function.
+3. Observe the LEDs on Port C for any test failures.
+4. Successful test execution should not light up any LEDs.
 
 
 ## Test Case for EEPROM
@@ -165,17 +203,17 @@ To validate the EEPROM driver's ability to accurately write and read data.
 
 - Port C LEDs display EEPROM read values' binary representation.
 
-<!-- You can continue to add more test cases in a similar format -->
+
 
 
 ## Test Case for PWM Measurement using Input Capture Unit
 
 ### Objective
-To assess the ATmega32A's Input Capture Unit in measuring PWM signals from an Arduino pin.
+To assess the ATmega32A's Input Capture Unit in measuring PWM signals from an Arduino pin or any other source of PWM signal.
 
 ### Test Procedure
 - **Setup**: Prepare ATmega32A for PWM signal measurement.
-- **Execution**: Generate and measure PWM signals from Arduino.
+- **Execution**: Generate and measure PWM signals .
 - **Display**: Show frequency and duty cycle on an LCD via Port A.
 - **Validation**: Match measured values with expected output.
 
@@ -187,10 +225,11 @@ To assess the ATmega32A's Input Capture Unit in measuring PWM signals from an Ar
 - Measurement using ATmega32A's input capture unit.
 - Signal source: Arduino pin 5.
 
+
 ## Test Case for SPI Communication with Arduino Slave
 
 ### Objective
-To validate the SPI communication between an ATmega32A master and an Arduino slave.
+To validate the SPI communication between an ATmega32A master and an Arduino slave as the code for both is included.
 
 ### Test Procedure
 - **Setup**: Configure the ATmega32A as an SPI master and the Arduino as an SPI slave.
@@ -215,7 +254,7 @@ To validate the SPI communication between an ATmega32A master and an Arduino sla
 ## Test Case for USART Communication
 
 ### Objective
-To validate the USART communication between an ATmega32 and an Arduino Uno.
+To validate the USART communication between an ATmega32 and an Arduino Uno as the code for both is included.
 
 ### Test Procedure
 - **Setup**: Configure USART modules on both ATmega32 and Arduino Uno.
@@ -382,3 +421,16 @@ All tests utilize an Arduino Uno with an input capture unit on pin 8. This setup
   - **Measured Results**: Compare with Arduino Uno input capture data.
 
 Each test case is structured to assess the Timer driver's capability to generate PWM signals accurately across a range of frequencies and duty cycles. The Arduino Uno's input capture feature serves as a reliable tool for measuring and validating these signal characteristics.
+ 
+## Contributing
+
+Contributions to this project are welcome. Adherence to the existing code structure and comment styles is appreciated.
+
+
+## License
+
+This project is licensed under the MIT License
+
+## Acknowledgments
+
+Hat tip to anyone whose code was used. Special thanks to Eng. Mohamed Abdel-Baset for inspiration.
