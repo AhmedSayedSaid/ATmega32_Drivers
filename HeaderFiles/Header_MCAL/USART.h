@@ -2,7 +2,7 @@
  * @file USART.h
  * @date 7/29/2023
  * @brief This file contains declarations for USART service functions.
- * @contact ahmed.elsayed.elsaid2@gmail.com
+
  */
 
 #ifndef USART_H_

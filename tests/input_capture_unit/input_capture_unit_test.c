@@ -7,8 +7,8 @@
 * @date    20-7-2023
 * @brief   measuring the pwm signal using input capture unit of the atmega32a and the signal is generated from arduino pin 5 .
 *          the result is being printed on lcd connected to the atmega32A using port a
-* @note    This file is not included in the build process. Copy the content of it to the main to run the test.
-* @note    https://github.com/AHMED_SAYED
+* @note    you should comment the code inside this test case in order for the project to compile .
+* @note    
 *******************************************
 **/
 

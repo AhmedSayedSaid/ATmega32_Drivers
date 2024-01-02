@@ -1,67 +1,68 @@
 /**
- *******************************************
  * @file    EEPROM_test.c
  * @author  AHMED SAYED SAID
  * @version 1.0
  * @date    10-7-2023
- * @brief   test the EEPROM with the led array on port c ,to make it work copy this file content in the main file and remove the multiline comment from the code below
- * @note this file is not included in the build process.
- * @note    https://github.com/AHMED_SAYED
- *******************************************
-**/
+ * @brief   Test for EEPROM with LED array on port C.
+ *          To run this test, copy the contents of this file into the main file.
+ */
 
-
-
-
-/*
-#define F_CPU 8000000 
+#define F_CPU 8000000UL 
 #include <util/delay.h>
-
 #include "Common_Includes.h"
 
-
-
-void writeTestDataToEEPROM()
+/**
+ * @brief Writes test data to EEPROM.
+ * 
+ * Each test value written is the binary representation of its index.
+ */
+void writeTestDataToEEPROM(void)
 {
-    // Test values to be stored in EEPROM
-    // Each test value is the binary representation of its index
-    u16 testAddr = 0;
+    u16 testAddr = 0u;
     
-    for(int i = 0; i < 8; i++)
+    for(u8 i = 0u; i < 8u; i++)
     {
         EEPROM_WRITE(testAddr, i);
         testAddr++;
     }
 }
 
-void displayEEPROMData()
+/**
+ * @brief Displays EEPROM data on LED array.
+ * 
+ * Reads test values from EEPROM and displays them on Port C LEDs with a 2-second delay.
+ */
+void displayEEPROMData(void)
 {
-    // Number of test values
-    u8 testValuesCount = 8;
-    u16 testAddr = 0;
-    u8 readData;
+    const u8 testValuesCount = 8u;
+    u16 testAddr = 0u;
+    u8 readData = 0u;
 
-    for(int i = 0; i < testValuesCount; i++)
+    for(u8 i = 0u; i < testValuesCount; i++)
     {
         EEPROM_READ(testAddr, &readData);
         PORTC = readData;
-        _delay_ms(2000);  // 2-second delay
+        _delay_ms(2000u);  // 2-second delay
         testAddr++;
     }
 }
 
-int main()
+/**
+ * @brief Main function to execute EEPROM test.
+ * 
+ * @return int Returns 0 upon successful execution.
+ */
+int main(void)
 {
     // Set Port C as output
-    DDRC = 0xFF;
+    DDRC = 0xFFu;
 
-    // Comment out the next line after first run, before power cycle
-   // writeTestDataToEEPROM();
+    // Uncomment the next line for initial EEPROM writing, comment out after first run
+    // writeTestDataToEEPROM();
 
-    // Uncomment the next line after power cycle to test EEPROM data persistence
+    // Uncomment the next line for testing EEPROM data persistence after a power cycle
     displayEEPROMData();
     
     while(1) {};  // Endless loop
     return 0;
 }
-*/

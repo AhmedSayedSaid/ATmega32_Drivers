@@ -5,7 +5,7 @@
  * @version 1.0
  * @date    12-7-2023
  * @brief   header file for external interrupt
- * @note    https://github.com/AHMED_SAYED
+
  *******************************************
 **/
 
